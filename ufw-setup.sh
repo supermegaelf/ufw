@@ -9,7 +9,7 @@ ufw enable
 
 mkdir -p /root/scripts && cd /root/scripts
 
-wget -q https://raw.githubusercontent.com/supermegaelf/ufw/main/cf-ufw.sh -O /root/scripts/cf-ufw.sh
+wget -q https://raw.githubusercontent.com/supermegaelf/cf-ufw/main/cf-ufw.sh -O /root/scripts/cf-ufw.sh
 
 chmod +x /root/scripts/cf-ufw.sh
 
