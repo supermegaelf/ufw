@@ -19,5 +19,3 @@ apt install -y cron
 (crontab -l 2>/dev/null; echo "@daily /root/scripts/cf-ufw.sh &> /dev/null") | crontab -
 
 ufw reload
-
-echo "DONE"
